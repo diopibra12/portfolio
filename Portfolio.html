@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ibrahima's Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="active">
+            <a href="#" class="logo">Ibrahima</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#" >Services</a>
+                <a href="#" >Resume</a>
+                <a href="#" >Portfolio</a>
+                <a href="#" >Contact</a>
+            </nav>
+        </header>
+        <!--bar background-->
+        <div class="bars-box active">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+        </div>
+        <!--home section-->
+        <section class="home active ">
+            <div class="home-detail">
+                <h1>Ibrahima Diop</h1>
+                <h2>I'm a 
+                    <span style="--i:3;" data-text="Android Developer">Android Developer</span>
+                    <span style="--i:2;" data-text="IOS Developer">IOS Developer</span>
+                    <span style="--i:1;" data-text="Web Developer">Web Developer</span>
+                </h2>
+                <p>Étudiant en dernière année de baccalauréat en informatique, spécialisé en développement web et mobile, je suis disponible pour un poste à temps partiel cet hiver et je suis également à la recherche d’un stage pour l’été.</p>
+                <div class="btn-sci">
+                    <a href="CV_INF.pdf" class="btn" download>Télécharger mon CV</a>
+                    <div class="sci">
+                        <a href="https://github.com/diopibra12" target="_blank"> <i class='bx bxl-github' ></i></a>
+                        <a href="https://www.linkedin.com/in/ibrahima-diop-561836338" target="_blank"> 
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="beige.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Service section-->
+        <section class="services ">
+            <h2 class="heading">My <span>Services</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-code-alt' ></i>
+                        <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                    </div>
+                        <h3>Web Development</h3>
+                        <p>Html, Css, JavaScript</p>
+                </div>
+
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bxl-android' ></i>
+                        <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                    </div>
+                        <h3>Android Development</h3>
+                        <p>Java</p>
+                </div>
+
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bxl-apple' ></i>
+                        <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                    </div>
+                        <h3>IOS Development</h3>
+                        <p>Actuellement en formation pour l'hiver</p>
+                </div>
+
+            </div>
+        </section>
+        <!--Resume Section-->
+        <section class="resume ">
+            <div class="resume-container">
+                <div class="resume-box">
+                    <h2>Pourquoi Moi?</h2>
+                    <button class="resume-btn ">Experience</button>
+                    <button class="resume-btn">Education</button>
+                    <button class="resume-btn">Skills</button>
+                    <button class="resume-btn">À propos</button>
+                </div>
+                <div class="resume-box">
+                    <!--div experience-->
+                    <div class="resume-detail experience active">
+                        <h2 class="heading">Mon <span> Experience</span> </h2>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p class="year">2024</p>
+                                <h3>Projet de Synthèse</h3>
+                                <p>Créer une interface conviviale pour faciliter les activités agricoles, en particulier pour les personnes moins familières avec la technologie. Sur le plan technique, intégrer des API pour la synchronisation des données en temps réel.</p>
+                            </div>
+                            <div class="resume-item">
+                                <p class="year">Hiver 2024</p>
+                                <h3>(Projet de Session) Citoyen Actif</h3>
+                                <p>Développé une application mobile pour signaler les problèmes urbains, intégrant Google Maps, Room Database et Firebase pour la synchronisation des données. Ajout d’une IA pour analyser les photos et détecter automatiquement les types de dommages.</p>
+                            </div>
+                            <div class="resume-item">
+                                <p class="year">Été 2024</p>
+                                <h3>Projet Personnel</h3>
+                                <p>Développé une application Android pour la classification en temps réel de Pokémon en utilisant CameraX et TensorFlow Lite, permettant aux utilisateurs de détecter et d’afficher des Pokémon avec précision.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--div education-->
+                    <div class="resume-detail education">
+                        <h2 class="heading">Mon <span> Education</span> </h2>
+                        </p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p class="year">2021-2025</p>
+                                <h3>Computer Science spec:(web et mobile)</h3>
+                                <p class="company"> Université du Québec à Trois-Rivières</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--div skills-->
+                    <div class="resume-detail skills">
+                        <h2 class="heading">Mes <span> Skills</span> </h2>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <i class='bx bxl-java' ></i>
+                                <span>JAVA</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-html5' ></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-css3' ></i>
+                                <span>CSS</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-javascript' ></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-postgresql' ></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-android' ></i>
+                                <span>JAVA, Kotlin</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-apple' ></i>
+                                <span>Swift</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-python' ></i>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--div about-->
+                    <div class="resume-detail about">
+                        <h2 class="heading">À <span> Propos</span> </h2>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <h3>Qu'est-ce qui fait de moi <span>le candidat ideal?</span></h3>
+                                <p>Passionné</p>
+                                <p>Curieux</p>
+                                <p>Rigoureux</p>
+                                <p>Professionel</p>
+                                
+                            </div>
+                            <div class="resume-item">
+                                <h3>Pourquoi avoir choisi <span>l'informatique?</span></h3>
+                                <p>Mon intérêt pour les jeux vidéo a alimenté mon désir de comprendre leur fonctionnement et de contribuer à leur développement.</p>
+                                <p>J’aime explorer de nouvelles technologies et apprendre au fur et à mesure, ce qui m’aide à relever différents défis et à proposer des solutions créatives.</p>
+                            </div>
+                            <div class="resume-item">
+                                <h3>Join Me <span>easily</span></h3>
+                                <p>437-974-6951</p>
+                                  <p>  Ibrahima.Diop3@uqtr.ca</p>
+                                   <p> Trois-Rivières</p>
+                                </p>
+                            </div>
+                            <div class="resume-item">
+                                <h3>Langues <span>Parlées</span></h3>
+                                <p>English, Français</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Portfolio Section-->
+        <section class="portfolio ">
+            <h2 class="heading">Latest <span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <div class="portfolio-detail active">
+                        <p class="numb">01</p>
+                        <h3>Projet Universitaire</h3>
+                        <p>Développé une application mobile pour aider les citoyens à signaler les problèmes urbains, avec Google Maps pour le suivi de localisation, une base de données Room pour le stockage local des données, et Firebase pour la synchronisation des signalements. L’application intègre également une IA capable d’analyser les photos et de détecter automatiquement le type de dommage, simplifiant ainsi le processus de gestion des réparations.</p>
+                        <div class="tech">
+                            <p>Android, JAVA</p>  
+                        </div>
+                        <div class="github">
+                            <a href="https://github.com/diopibra12/citoyen-actif" target="_blank"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-detail">
+                        <p class="numb">02</p>
+                        <h3>Projet Personnel</h3>
+                        <p>Développé une application Android utilisant l’IA pour la classification en temps réel de Pokémon avec CameraX et TensorFlow Lite. L’application permet la détection d’objets en temps réel et affiche avec précision la classe prédite, offrant une expérience interactive et ludique. J’ai entraîné le modèle avec TensorFlow en utilisant Python.</p>
+                        <div class="tech">
+                            <p>Python, Android, JAVA</p>
+                        </div>
+                        <div class="github">
+                            <a href="https://github.com/diopibra12/Detection-D-image" target="_blank"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-detail">
+                        <p class="numb">03</p>
+                        <h3>Projet de Synthèse</h3>
+                        <p>J’ai conçu et développé une application Android pour faciliter la gestion des activités agricoles. L’application permet aux agriculteurs de demander des subventions, de louer du matériel, d’acheter des intrants et de vendre leurs produits à des grossistes. Les propriétaires fonciers peuvent visualiser leurs terrains sur une carte et accéder à des informations telles que la taille, la localisation et le type de produits disponibles. J’ai travaillé sur la création d’une interface conviviale, en particulier pour les utilisateurs moins familiers avec la technologie. Sur le plan technique, je me suis concentré sur la mise en place d’un backend fiable pour gérer les données, l’intégration d’API pour des mises à jour en temps réel, et l’optimisation de l’application pour garantir un fonctionnement fluide sur différents appareils..</p>
+                        <div class="tech">
+                            <p>Andoid, Java</p>
+                        </div>
+                        <div class="github">
+                            <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-detail">
+                        <p class="numb">04</p> 
+                        <h3>Personal Project</h3>
+                        <p></p>
+                        <div class="tech">
+                            <p></p>
+                        </div>
+                        <div class="github">
+                            <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <!--image box-->
+                    <div class="portfolio-carousel">
+                        <div class="img-slide">
+                            <div class="img-item">
+                                <img src="IMG_1580.jpeg">
+                            </div>
+                            <div class="img-item">
+                                <img src="pikachu.png">
+                            </div>
+                            <div class="img-item">
+                                <img src="compas.png">
+                            </div>
+                            <div class="img-item">
+                                <img src="Reporlist.jpeg">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <button class="arrow-left disabled"><i class='bx bxs-chevron-left' ></i></button>
+                        <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section class="contact ">
+            <div class="contact-container">
+                <div class="contact-box">
+                    <h2>Join Me easily!</h2>
+                    <div class="contact-detail">
+                        <i class='bx bxs-phone' ></i>
+                        <div class="detail">
+                        <p>Phone Number</p>
+                        <p>(+1) 437-974-6951</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class='bx bxs-envelope' ></i>
+                        <div class="detail">
+                        <p>Email</p>
+                        <p>Ibrahima.Diop3@uqtr.ca</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class='bx bxs-map' ></i>
+                        <div class="detail">
+                        <p>Address</p>
+                        <p>Trois-Rivières</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="contact-box">
+                    <form action="sendEmail.php" method="post">
+                        <h2 class="heading">Contact <span>Me!</span></h2>
+                        <div class="field-box">
+                            <input type="text" name="name" placeholder="Full Name" required>
+                            <input type="email" name="email" placeholder="Email Address" required>
+                            <input type="text" name="phone" placeholder="Phone Number">
+                            <input type="text" name="subject" placeholder="Email Subject" required>
+                            <textarea name="message" placeholder="Your Message!" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
